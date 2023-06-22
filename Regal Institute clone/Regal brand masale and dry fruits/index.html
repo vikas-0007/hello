@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div id="logo">
+                <h2>REGAL BRAND M & DF</h2>
+            </div>
+            <i class="fa-solid fa-bars" id="menubtn"></i>
+            <ul id="totalmenubtn">
+                <li><a href="">Home</a></li>
+                <li><a href="">Cart</a></li>
+                <li><a href="">Account</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+            <a href=""><input type="search" placeholder="search..."></a>
+        </nav>
+    </header>
+    <section>
+        <div id="designbox">
+            <div id="quatercircle">
+                <img src="../image-removebg-preview (19).png" alt="" id="image1">
+                <img src="../image-removebg-preview (20).png" alt="" id="image2">
+                <img src="../image-removebg-preview (22).png" alt="" id="image3">
+
+            </div>
+            <div id="contentbox">
+                <h2><span>regal</span> Delights</h2>
+                <p>Edible Masale and Dry fruits that keeps you doctor away !</p>
+                <p>Try once it fell love in it...</p>
+                <button id="orderbtn">Order Now</button>
+            </div>
+        </div>
+    </section>
+
+
+    <script>
+        let menubtn =document.getElementById("menubtn");
+        let totalmenubtn =document.getElementById("totalmenubtn");
+
+        menubtn.onclick = () =>{
+            totalmenubtn.classList.toggle("active");
+        }
+
+    </script>
+    
+</body>
+</html>
